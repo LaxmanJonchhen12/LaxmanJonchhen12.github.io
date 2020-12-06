@@ -1,0 +1,128 @@
+/* Universal Styling */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+/* Scroll  */
+
+html {
+  scroll-behavior: smooth;
+}
+
+/*header styling */
+
+#header {
+  background-image: url("../images/william-warby-ld4wZGqlLF4-unsplash.jpg");
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#header nav {
+  padding: 30px;
+}
+
+#header ul {
+  float: right;
+}
+
+/* Navbar Styling */
+
+#header ul li {
+  list-style: none;
+  display: inline-block;
+}
+
+#header ul li a {
+  text-decoration: none;
+  color: black;
+  font-size: 20px;
+  padding-right: 25px;
+  font-family: sans-serif;
+  font-weight: bolder;
+  color: white;
+}
+
+#navbar {
+  position: fixed;
+  float: left;
+}
+
+/* pseudo slectors */
+#header ul li a:hover {
+  color: coral;
+}
+
+/* intro section styling  */
+#intro-section {
+  padding-top: 180px;
+  padding-left: 350px;
+  text-align: center;
+}
+
+#intro-section #intro,
+#intro-section #hello {
+  font-size: 2.2rem;
+}
+
+#intro-section p {
+  line-height: 1.9rem;
+  font-size: 1.2rem;
+}
+
+#intro-section p a {
+  text-decoration: none;
+}
+
+#intro-p {
+  font-weight: bolder;
+}
+
+/* about me styling */
+#about-me {
+  padding: 2rem;
+  line-height: 2rem;
+  /* margin-top: 1px; */
+  background-color: burlywood;
+}
+
+#about-me #title-about-me {
+  text-align: center;
+  font-size: 2rem;
+}
+
+#about-me p {
+  text-align: justify;
+}
+
+/* Contact Me Styling  */
+#contact-me {
+  text-align: center;
+  line-height: 1.7rem;
+  background: grey;
+  padding: 20px;
+}
+
+#contact-me #contact-me-text {
+  font-weight: bolder;
+}
+
+/* social media styling */
+#social-media-icons a {
+  padding-right: 2rem;
+}
+
+/* Fotter Styling */
+#footer {
+  text-align: center;
+  background: black;
+  color: white;
+  height: 70px;
+  padding: 30px;
+}
